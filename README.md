@@ -23,5 +23,5 @@ Cf. https://github.com/Ettwiller/Damage-estimator
 For exome bams, we recommend: -Q 20 -mq 20 --max_coverage_limit 300 --min_coverage_limit 30
 
 # Example:
-- nextflow run iarcbioinfo/damage-estimator-nf --bam_folder BAM/ --genome_ref ref.fasta
-- nextflow run iarcbioinfo/damage-estimator-nf --bam_folder BAM/ --de_path /path/ --genome_ref ref.fasta 
+- nextflow run iarcbioinfo/damage-estimator.nf --bam_folder BAM/ --genome_ref ref.fasta
+- nextflow run iarcbioinfo/damage-estimator.nf --bam_folder BAM/ --de_path /path/ --genome_ref ref.fasta 
