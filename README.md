@@ -20,7 +20,7 @@ Cf. https://github.com/Ettwiller/Damage-estimator
 - --min_coverage_limit (DEFAULT 1) : If a position has equal or less than MIN reads (R1 or R2), the position is not used to calculate the damage. This option is put in place in order to calculate damage only in on-target regions (in cases of enrichment protocol such as exome ....)
 - --qualityscore (DEFAULT 30) : Discard the match or mismatch if the base on a read has less than MIN base quality. Important parameters. The lower this limit is, the less the damage is apparent.
 
-For exome bams, we recommend: -Q 20 -mq 20 --max_coverage_limit 300 --min_coverage_limit 30
+For exome bams, we recommend: --Q 20 --mq 20 --max_coverage_limit 300 --min_coverage_limit 30
 
 # Example:
 - nextflow run iarcbioinfo/damage-estimator.nf --bam_folder BAM/ --genome_ref ref.fasta
