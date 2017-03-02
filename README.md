@@ -7,9 +7,9 @@ Cf. https://github.com/Ettwiller/Damage-estimator
 - R with GGPLOT2 package
 
 # Mandatory parameters
-- bam_folder containing
+- bam_folder containing .bam and .bam.bai files
 - de_path : location of folder containing damage estimator files (.pl and .r)
-- genome_ref
+- genome_ref : the genome of reference
 
 # Optional parameters
 - cluster_options
