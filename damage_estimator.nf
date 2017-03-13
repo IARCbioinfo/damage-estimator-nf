@@ -14,6 +14,7 @@ params.mq = "10"
 params.max_coverage_limit = "100"
 params.min_coverage_limit = "1"
 params.qualityscore ="30"
+params.mem = 12
 
 if (params.help) {
     log.info ''
@@ -59,7 +60,8 @@ b_pair = bams
 process split_mapped_reads {
 	echo "split_map_reads"
 	tag { bam_tag }
-	memory '12GB'
+        memory params.mem+'GB' 
+
 	clusterOptions = params.cluster_options
 	publishDir 'DE_output_smr'
 
@@ -83,7 +85,7 @@ shell:
 process estimate_damage {
 	echo "estimate_damage"
 	tag { bam_tag }
-	memory '12GB'
+        memory params.mem+'GB' 
 	clusterOptions = params.cluster_options
 	publishDir 'DE_output_tables'
 
