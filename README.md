@@ -10,9 +10,12 @@ This tool estimate the DNA damage when the DNA is sequenced using Illumina plate
 Cf. https://github.com/Ettwiller/Damage-estimator
 
 ## Dependencies
-1. Nextflow: for installation procedures see the file config. (also for cluster-options for your cluster scheduler)
-2. samtools
-3. R with GGPLOT2 package
+
+1. This pipeline is based on [nextflow](https://www.nextflow.io). As we have several nextflow pipelines, we have centralized the common information in the [IARC-nf](https://github.com/IARCbioinfo/IARC-nf) repository. Please read it carefully as it contains essential information for the installation, basic usage and configuration of nextflow and our pipelines.
+
+2. External software:
+- samtools
+- R with GGPLOT2 package
 
 The tool writes in tmp folder so check that yours is specified in your .bash_profile (export TMPDIR=/data/tmp/, export TMP=/data/tmp)
 
