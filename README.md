@@ -8,6 +8,7 @@ Cf. https://github.com/Ettwiller/Damage-estimator
 1. Nextflow: for installation procedures see the file config. (also for cluster-options for your cluster scheduler)
 2. samtools
 3. R with GGPLOT2 package
+
 The tool writes in tmp folder so check that yours is specified in your .bash_profile (export TMPDIR=/data/tmp/, export TMP=/data/tmp)
 
 ## Input
