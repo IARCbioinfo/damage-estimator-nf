@@ -19,7 +19,7 @@ Cf. https://github.com/Ettwiller/Damage-estimator
 
 The tool writes in tmp folder so check that yours is specified in your .bash_profile (export TMPDIR=/data/tmp/, export TMP=/data/tmp)
 
-You can avoid installing all the external software by only installing Docker. See the [IARC-nf]((https://github.com/IARCbioinfo/IARC-nf) repository for more information.
+You can avoid installing all the external software by only installing Docker. See the [IARC-nf](https://github.com/IARCbioinfo/IARC-nf) repository for more information.
 
 ## Input
   | Type      | Description     |
