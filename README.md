@@ -14,6 +14,7 @@ Cf. https://github.com/Ettwiller/Damage-estimator
 1. This pipeline is based on [nextflow](https://www.nextflow.io). As we have several nextflow pipelines, we have centralized the common information in the [IARC-nf](https://github.com/IARCbioinfo/IARC-nf) repository. Please read it carefully as it contains essential information for the installation, basic usage and configuration of nextflow and our pipelines.
 
 2. External software:
+- [Damage Estimator](https://github.com/Ettwiller/Damage-estimator)
 - samtools
 - R with GGPLOT2 package
 
